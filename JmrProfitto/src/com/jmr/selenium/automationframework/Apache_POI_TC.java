@@ -18,7 +18,7 @@ public class Apache_POI_TC {
 	public static void login() throws Exception {
 
 		// This is to open the Excel file. Excel path, file name and the sheet
-		// name are parameters to this method
+		// name are parameters to this method.
 		int ref = ExcelUtils.setExcelFile(Constant.Path_TestData + Constant.File_TestData1, "LoginData");
 		
 		for (int i = 1; i <= 1; i++) {
